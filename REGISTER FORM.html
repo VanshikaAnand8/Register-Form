@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTER FORM</title>
+        <style>
+            input[type=text]
+            {width: 100%;
+            padding: 10px 10px;
+            margin:15px;
+            border:none ;
+            border-bottom: 2px solid goldenrod;
+            display: 1px solid white;
+            box-sizing: border-box;
+            border-radius: 10px;
+            }
+            input[type=text]:hover
+            {
+                background-color: azure;
+            
+            }
+            
+            input[type=submit]
+            {
+                width: 100%;
+                padding: 10px 10px;
+                margin:15px;
+                border-radius: 20px;
+                background-color:goldenrod;
+            }
+            input[type=submit]:hover
+            {
+                background-color: gold;
+            }
+            input[type=radio],select
+            {
+                padding:10px 10px;
+                
+                color: white;
+                margin: 15px;
+                
+            }
+            div{
+                background-color: navy;
+                border-radius: 5px;
+                padding: 50px;
+                width: 30%;
+                margin: 0 0 0 450px;
+            
+            }
+            div.transbox
+            {margin: 30px;
+            background-color: #ffffff;
+           border: 1px solid black;
+          opacity: 0.6;
+             }
+        </style>
+    </head>
+    <body>
+        <div>
+        <h1 style="color: white; text-align:center">REGISTER</h1>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="Email Id">
+        
+        <input type="radio" name="Gender" value="M" ><span style="color:white">Male</span>
+        <input type="radio" name="Gender" value="F"><span style="color:white">Female</span>
+
+        <input type="text" placeholder="Address">
+        <input type="text" placeholder="Phone Number">
+        <input type="submit" value="Submit">
+    </div>
+    </body>
+</html>
